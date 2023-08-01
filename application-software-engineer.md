@@ -1,4 +1,14 @@
-# Q1
+# Application software engineer
+
+Hi 👋, Thank you for choosing our team.
+
+Here are some questions to examine the basics and necessary programming knowledge, and you can answer them in any way you like (we recommend using a plain text format, such as Markdown).
+
+In addition, please try not to use external tools during the answering process, because these questions are all derived from real work scenarios.
+
+Ready? Then let's get started!
+
+## Q1
 
 What's the time complexity of the following code, and why?
 
@@ -11,7 +21,7 @@ for (var i = 0; i < N; i++) {
 }
 ```
 
-# Q2
+## Q2
 
 Please design a series of RESTful-style APIs to implement:
 - Adding product(s)
@@ -19,13 +29,16 @@ Please design a series of RESTful-style APIs to implement:
 - Updating product information
 - Removing product(s)
 
-# Q3
+## Q3
 
 Consider the following Dart code, is there anything unreasonable or wrong in it? If so, how should it be modified to make it work as expected?
 
 ```dart
 void main() async {
-  final socket = await Socket.connect('<ipv4-address>', /* valid port */);
+  final socket = await Socket.connect(
+    /* valid ipv4 address */,
+    /* valid port */
+  );
   observeType1DataOf(socket);
   observeType2DataOf(socket);
 }
@@ -42,7 +55,7 @@ void observeType2DataOf(Socket s) {
   });
 }
 ```
-# Q4
+## Q4
 
 Please use Dart to implement a program that parses the following DSL and extracts valid information into memory (you can freely design the memory data structure):
 
