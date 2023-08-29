@@ -66,3 +66,9 @@ Please use Dart to implement a program that parses the following DSL and extract
   <Build>809dxcv90j1nolqjk</Build>
 </Robot>
 ```
+
+# Finally
+
+We would like to sincerely thank you for your time and please send your answers to software-hiring@cartesiusrobotics.com when you are done.
+
+Good luck and looking forward to being a colleague with you.
