@@ -61,7 +61,7 @@ Please use Dart to implement a program that parses the following DSL and extract
 
 ```html
 <Robot>
-  <Model>Cartesius<Model>
+  <Model>Cartesius</Model>
   <Version>20230729</Version>
   <Build>809dxcv90j1nolqjk</Build>
 </Robot>
