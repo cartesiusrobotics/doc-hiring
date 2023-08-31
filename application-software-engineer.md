@@ -34,6 +34,8 @@ Please design a series of RESTful-style APIs to implement:
 Consider the following Dart code, is there anything unreasonable or wrong in it? If so, how should it be modified to make it work as expected?
 
 ```dart
+import 'dart:io';
+
 void main() async {
   final socket = await Socket.connect(
     /* valid ipv4 address */,
