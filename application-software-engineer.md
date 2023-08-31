@@ -59,6 +59,8 @@ void observeType2DataOf(Socket s) {
 
 Please use Dart to implement a program that parses the following DSL and extracts valid information into memory (you can freely design the memory data structure):
 
+It would be better if you can complete this problem without relying on any third-party library.
+
 ```html
 <Robot>
   <Model>Cartesius</Model>
